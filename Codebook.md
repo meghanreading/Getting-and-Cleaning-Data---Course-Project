@@ -16,3 +16,4 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
 * A similar approach is taken with activity names through the `activities` variable.
 * `all_data` merges `x_data`, `y_data` and `subject_data` in a big dataset.
 * Finally, `averages_data` contains the relevant averages which will be later stored in a `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()` and ease the development.
+
